@@ -5,10 +5,6 @@ var cors = require('cors');
 var path = require('path');
 const route = require('./routes/route')
 const port = 3000;
-
-require('./routes/controller/config/passport');
-
-
 var app = express();
 
 app.use(function (req, res, next) {
